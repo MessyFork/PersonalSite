@@ -11,6 +11,9 @@ npm i
 ```
 
 ### Usage
+Create react components in /src/pages that will serve as the body of each page.
+Any changes to <Head> should be done in Root.js
+
 Routing in the project is handled by react-router. Any new routes must be added
 in both routes.js as well as data.js.
 
@@ -36,3 +39,13 @@ the site with
 npm run webpack
 ```
 which outputs to /build
+
+### Mentions
+@schneidmaster for his help in explaining the logic behind the code in router.js.
+
+[how-to-vote](https://github.com/Bernie-2016/how-to-vote) a full fledged example
+of a static React site with React-Router
+
+@jxnblk for the [post](http://jxnblk.com/writing/posts/static-site-generation-with-react-and-webpack/) on creating static react sites.
+
+css-tricks for their [article](https://css-tricks.com/css-modules-part-3-react/) on CSS modules and React. 
