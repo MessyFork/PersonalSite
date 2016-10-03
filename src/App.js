@@ -10,7 +10,7 @@ export default class App extends React.Component {
     return(
         <div>
         <Nav></Nav>
-        <div>This site is under construction. The bugs may be ugly but they don't bite! ^^</div>
+        <div>This site is under construction. The bugs may be ugly but they don't bite!</div>
           {this.props.children}
         <Footer></Footer>
         </div>

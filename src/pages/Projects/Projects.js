@@ -19,7 +19,7 @@ export default class Projects extends React.Component {
           Most of the work in this project was in adapting React and React-Router to work in a static website as the technology is mostly used to for dynamic websites with backends in particular with conjunction of a REST api.
           <br></br>
           <br></br>
-          The Code for this website can be found at <a href="https://github.com/messyfork/PersonalSite">https://github.com/messyfork/PersonalSite</a>
+          The Code for this website can be found at <a href="https://github.com/messyfork/PersonalSitenpm">https://github.com/messyfork/PersonalSite</a>
           </div>
         </div>
 

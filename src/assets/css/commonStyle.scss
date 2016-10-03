@@ -1,13 +1,11 @@
 .bodyTextStyle {
   font: {
-    family: Helvetica;
     size: 29;
   }
 }
 
 .pageTitleStyle {
   font: {
-    family: Helvetica;
     weight: bold;
     size: calc(12px + 7.5vw);
   }
@@ -23,8 +21,7 @@
 
 .sectionContainer {
   padding-bottom: 30px;
-  width: 50%;
-  font-family: Helvetica;
+  max-width: 80%;
   .sectionTitle {
     color: $blueColor;
     font: {

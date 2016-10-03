@@ -13,6 +13,7 @@ export default class Root extends React.Component {
           <link rel="stylesheet" href="/styles.css"/>
           {/* magic reloading from webpack dev */}
           <script src="http://localhost:8080/webpack-dev-server.js"></script>
+          <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
           <link rel="icon" href="/fav.ico"/>
 
         </head>

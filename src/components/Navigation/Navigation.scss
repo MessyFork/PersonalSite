@@ -9,21 +9,19 @@
     color: $blueColor;
     min-width: 400px;
     font: {
-      family: Helvetica;
       weight: bold;
       size: calc(50px + 1.2vw);
     }
   }
   .linkContainer {
-    max-width: 600px;
-    width: 70%;
+    max-width: 50%;
+    min-width: 40%;
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-content: space-around;
     text-transform: uppercase;
     font: {
-      family: Helvetica;
       size: calc(8px + 1.2vw);
       weight: bold;
     }

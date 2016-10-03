@@ -16,7 +16,7 @@ export default class Home extends React.Component {
             <br></br>
             <br></br>
             <span>
-            Despite my current activity in web related projects I have worked on multiple projects utilizing low-level programming specifically ARM assembly and vanilla C.
+            Despite most of my current projects being web related projects I have worked on multiple projects utilizing low-level programming specifically ARM assembly and vanilla C.
             </span>
             </div>
           </div>
