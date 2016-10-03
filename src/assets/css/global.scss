@@ -1,0 +1,32 @@
+html {
+  a {
+    text-decoration: none;
+    color: #333333;
+    &:hover {
+      color: #DE3C4B;
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+//have browsers use anti-aliasing
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+//START react-typist cursor css
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+//END react-typist

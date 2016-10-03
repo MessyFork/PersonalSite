@@ -1,0 +1,33 @@
+@import "src/assets/css/variables";
+.footContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: $blackColor;
+  height: 50px;
+  font: {
+    family: Helvetica;
+  }
+
+  .linkContainer {
+    min-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    a {
+      color: white;
+      &:hover {
+        color: $goldColor;
+      }
+    }
+    .linkBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

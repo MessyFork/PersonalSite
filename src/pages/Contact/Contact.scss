@@ -1,0 +1,15 @@
+@import "src/assets/css/variables";
+@import "src/assets/css/commonStyle";
+.pageTitle {
+  color: $goldColor;
+  @extend .pageTitleStyle;
+}
+.sectionContainer {
+  font: {
+    family: Helvetica;
+  }
+}
+.contactStyle {
+  display: block;
+  font-size: 30;
+}

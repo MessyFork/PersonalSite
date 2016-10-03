@@ -1,5 +1,6 @@
 var ExtractTextPlugin = require("extract-text-webpack-plugin")
 var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin');
+//manual route paths from data.js (REQUIRED)
 var data = require('./src/data')
 
 
@@ -38,10 +39,14 @@ module.exports = {
         include: __dirname + '/src/assets/css',
       },
       {
-        test: /\.jpg/,
+        test: /\.(jpg|png)/,
         loader: 'file-loader?name=assets/img-[hash:6].[ext]',
         include: __dirname + '/src',
-
+      },
+      {
+        test: /\.(ico|otf)/,
+        loader: 'file-loader?name=[name].[ext]',
+        include: __dirname + '/src/',
       }
     ],
   },

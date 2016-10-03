@@ -1,0 +1,40 @@
+.bodyTextStyle {
+  font: {
+    family: Helvetica;
+    size: 29;
+  }
+}
+
+.pageTitleStyle {
+  font: {
+    family: Helvetica;
+    weight: bold;
+    size: calc(12px + 7.5vw);
+  }
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.sectionContainer {
+  padding-bottom: 30px;
+  width: 70%;
+  font-family: Helvetica;
+  .sectionTitle {
+    color: $blueColor;
+    font: {
+      weight: bold;
+      size: 48;
+    }
+  }
+  .sectionText {
+    font: {
+      size: 29;
+    }
+  }
+}

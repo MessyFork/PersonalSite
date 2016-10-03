@@ -1,0 +1,28 @@
+@import "src/assets/css/variables";
+@import "src/assets/css/commonStyle";
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+
+  .pageTitle {
+    color: $redColor;
+    //align-self: flex-start;
+    @extend .pageTitleStyle;
+  }
+  .paragraphContainer {
+    background-color: $grayBackgroundColor;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    .paragraphText {
+      @extend .bodyTextStyle;
+      min-width: 400px;
+      width: 70%;
+      padding-top: 20px;
+    }
+  }
+}

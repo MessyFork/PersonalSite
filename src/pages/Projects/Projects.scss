@@ -1,0 +1,28 @@
+@import "src/assets/css/variables";
+@import "src/assets/css/commonStyle";
+
+
+  .pageTitle {
+    color: $purpleColor;
+    //align-self: flex-start;
+    @extend .pageTitleStyle;
+  }
+  
+
+  .moboardBackground {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(226, 226, 226, .70);
+    background-image: url("../../assets/images/MoBoardBG.jpg");
+    background-size: cover;
+  }
+
+  .coupleTonesBackground {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(153, 153, 153, .70);
+  }

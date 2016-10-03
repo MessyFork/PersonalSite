@@ -4,5 +4,10 @@
 module.exports = {
   routes: [
     '/',
+    '/home',
+    '/resume',
+    '/projects',
+    '/contact',
+
   ]
 }
