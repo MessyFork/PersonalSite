@@ -7,9 +7,10 @@
     //align-self: flex-start;
     @extend .pageTitleStyle;
   }
-  
+
 
   .moboardBackground {
+    width: 100vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;

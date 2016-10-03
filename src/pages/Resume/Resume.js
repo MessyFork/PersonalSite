@@ -5,9 +5,10 @@ export default class Resume extends React.Component {
   render() {
     return (
       <div className={style.pageContainer}>
-        <div className={style.pageTitle}>I'll Code For You</div>
+        <div className={style.pageTitle}>Coder For Hire.</div>
         <div className={style.sectionContainer}>
           <div className={style.sectionText}>
+          Under Construction. Come back October 5th!
           </div>
         </div>
       </div>

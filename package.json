@@ -6,7 +6,8 @@
   "scripts": {
     "webpack": "webpack",
     "dev": "webpack-dev-server --progress --colors --content-base build/",
-    "start": "npm run webpack && npm run dev"
+    "start": "npm run webpack && npm run dev",
+    "production": "webpack --progress -p"
   },
   "author": "",
   "license": "ISC",

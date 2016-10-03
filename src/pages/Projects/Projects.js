@@ -10,16 +10,16 @@ export default class Projects extends React.Component {
           <div className={style.sectionTitle}>Static Reactjs + React-Router website</div>
 
           <div className={style.sectionText}>
-          This website you are currently viewing was written with with ReactJS a JavaScript framework originally created by Facebook. As this was the second web project I’ve ever worked on I spent a significant amount of time to also learn the fundamental web technologies including HTML5 and Sass/CSS.
+          This website you're looking at is written with with ReactJS the JavaScript framework created by Facebook. As this is the first web project I’ve ever made it took a significant amount of time to also learn the fundamental web technologies such as HTML5, Sass/CSS, and JavaScript itself.
           <br></br>
           <br></br>
-          The motivation behind this project was to avoid using jQuery and replace it with ReactJS. The logic behind this decision is that websites today have so many interactive aspects to them that it makes sense to build the entire site with JavaScript.
+          The motivation behind this project was to avoid using jQuery and replace it with ReactJS. My thought process behind this decision came from my observation of how pervasive interactive websites are and the advantages of rendering the entire site with JavaScript.
           <br></br>
           <br></br>
-          Most of the work in this project was in adapting React and React-Router to work in a static website.
+          Most of the work in this project was in adapting React and React-Router to work in a static website as the technology is mostly used to for dynamic websites with backends in particular with conjunction of a REST api.
           <br></br>
           <br></br>
-          A basic boilerplate to build your own static website can be found at https://github.com/messyfork/
+          The Code for this website can be found at <a href="https://github.com/messyfork/PersonalSite">https://github.com/messyfork/PersonalSite</a>
           </div>
         </div>
 

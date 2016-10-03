@@ -12,7 +12,7 @@ export default class Footer extends React.Component {
           <Link className={style.linkBox} to="/home">Home</Link>
           <Link className={style.linkBox} to="/contact">Contact</Link>
         </div>
-        <div className={style.copyright}>Site by Eason Chan</div>
+        <div className={style.copyright}>Site by Eason Chan 2016</div>
       </nav>
     )
   }
