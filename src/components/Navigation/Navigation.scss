@@ -1,21 +1,23 @@
 @import "src/assets/css/variables";
 .navContainer{
+  padding-bottom: 10px;
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid black;
+  flex-wrap: wrap;
+  //border-bottom: 1px solid black;
 
   .logo {
     margin-left: 20px;
     color: $blueColor;
-    min-width: 400px;
+    min-width: 50px;
     font: {
       weight: bold;
-      size: calc(50px + 1.2vw);
+      size: calc(30px + 1.2vw);
     }
   }
   .linkContainer {
     max-width: 50%;
-    min-width: 40%;
+    min-width: 320px;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -28,7 +30,11 @@
     .linkBox {
       display: flex;
       justify-content: center;
+      margin-right: 10px;
       align-items: center;
+    }
+    .activeBox {
+      border-bottom: solid;
     }
 
   }

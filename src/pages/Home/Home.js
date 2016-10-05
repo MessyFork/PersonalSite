@@ -5,7 +5,7 @@ import Typist from 'react-typist'
 export default class Home extends React.Component {
   render() {
     return (
-      <div className={style.homeContainer}>
+      <div className={style.pageContainer}>
         <div className={style.pageTitle}>I Write Code.</div>
         <div className={style.paragraphContainer}>
           <div className={style.sectionContainer}>

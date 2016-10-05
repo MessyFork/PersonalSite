@@ -9,10 +9,10 @@ export default class Navigation extends React.Component {
       <nav className={style.navContainer}>
         <Link to="/home"  className={style.logo}>MessyForks</Link>
         <div className={style.linkContainer}>
-          <Link className={style.linkBox} to="/home">Home</Link>
-          <Link className={style.linkBox} to="/resume">Resume</Link>
-          <Link className={style.linkBox} to="/projects">Projects</Link>
-          <Link className={style.linkBox} to="/contact">Contact</Link>
+          <Link className={style.linkBox} activeClassName={style.activeBox} to="/home">Home</Link>
+          <Link className={style.linkBox} activeClassName={style.activeBox} to="/resume">Resume</Link>
+          <Link className={style.linkBox} activeClassName={style.activeBox} to="/projects">Projects</Link>
+          <Link className={style.linkBox} activeClassName={style.activeBox} to="/contact">Contact</Link>
         </div>
       </nav>
     )

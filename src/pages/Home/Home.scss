@@ -1,11 +1,5 @@
 @import "src/assets/css/variables";
 @import "src/assets/css/commonStyle";
-.homeContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
 
   .pageTitle {
     color: $redColor;
@@ -19,4 +13,3 @@
     display: flex;
     justify-content: center;
   }
-}

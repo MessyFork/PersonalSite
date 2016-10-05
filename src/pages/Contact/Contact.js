@@ -14,6 +14,7 @@ export default class Contact extends React.Component {
           </div>
           <br></br>
           <a className={style.contactStyle} href="mailto:e7chan@ucsd.edu">Email: e7chan@ucsd.edu</a>
+          <br></br>
           <a className={style.contactStyle} href="https://github.com/messyfork">GitHub: https://github.com/messyfork</a>
         </div>
       </div>

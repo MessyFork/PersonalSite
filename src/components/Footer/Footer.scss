@@ -1,31 +1,38 @@
 @import "src/assets/css/variables";
 .footContainer {
-  display: flex;
-  justify-content: space-around;
-  background-color: $blackColor;
+  position: absolute;
+  min-width: 100vw;
+  left: 0 ; right: 0; bottom: 0;
   height: 50px;
-  
-
-  .linkContainer {
-    min-width: 200px;
+  .contentContainer {
     display: flex;
     justify-content: space-around;
-    a {
-      color: white;
-      &:hover {
-        color: $goldColor;
+    background-color: $blackColor;
+    height: 50px;
+
+
+    .linkContainer {
+      min-width: 200px;
+      display: flex;
+      justify-content: space-around;
+      a {
+        color: white;
+        &:hover {
+          color: $goldColor;
+        }
+      }
+      .linkBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
-    .linkBox {
+    .copyright {
+      color: white;
       display: flex;
       justify-content: center;
       align-items: center;
     }
   }
-  .copyright {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
 }

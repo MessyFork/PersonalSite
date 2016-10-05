@@ -4,7 +4,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: calc(100vh + 100px);
+  //height: calc(100vh + 100px);
+  //min-height: 100%;
   .pageTitle {
     color: $blueColor;
     display: flex;
@@ -18,12 +19,12 @@
 
   .consoleContainer {
     margin-top: 10vh;
+    margin-bottom: 10vh;
     background-color: rgba(0, 0, 0, 0.85);
     border-radius: 5px;
     min-width: 400px;
     width: 70%;
-    height: 50%;
-
+    height: 70%;
     display: flex;
     justify-content: center;
     .consoleText {
