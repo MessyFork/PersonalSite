@@ -8,23 +8,25 @@ export default class Projects extends React.Component {
 
         <div className={style.pageTitle}>The Code I Write.</div>
 
-        <div className={style.sectionContainer}>
-          <div className={style.sectionTitle}>Static Reactjs + React-Router website</div>
-          <div className={style.technologyFlex}>
-            <div className={style.reactImage}></div>
-            <div className={style.reactRouterImage}></div>
-            <div className={style.sassImage}></div>
-          </div>
-          <div className={style.sectionText}>
-          This website you're looking at is written with with ReactJS the JavaScript framework created by Facebook. As this is the first web project I’ve ever made it took a significant amount of time to also learn the fundamental web technologies such as HTML5, Sass/CSS, and JavaScript itself.
-          <br></br>
-          <br></br>
-          The motivation behind this project was to avoid using jQuery and replace it with ReactJS. My thought process behind this decision came from my observation of how pervasive interactive websites are and the advantages of rendering the entire site with JavaScript.
-          <br></br>
-          <br></br>
-          Most of the work in this project was in adapting React and React-Router to work in a static website as the technology is mostly used to for dynamic websites with backends in particular with conjunction of a REST api.
-          <br></br>
-          <br></br>
+        <div className={style.staticSiteBackground}>
+          <div className={style.sectionContainer}>
+            <div className={style.sectionTitle}>Static Reactjs + React-Router website</div>
+            <div className={style.technologyFlex}>
+              <div className={style.reactImage}></div>
+              <div className={style.reactRouterImage}></div>
+              <div className={style.sassImage}></div>
+            </div>
+            <div className={style.sectionText}>
+            This website you're looking at is written with with ReactJS the JavaScript framework created by Facebook. As this was one of the first web projects I've created; it took a significant amount of time to also learn the fundamental web technologies such as HTML5, Sass/CSS, and JavaScript.
+            <br></br>
+            <br></br>
+            The motivation behind this project was to avoid using jQuery to instead use ReactJS. My thought process behind this decision came from my observation of how pervasive interactive websites are and the advantages of rendering the entire site with JavaScript rather than havingn JavaScript as an addon.
+            <br></br>
+            <br></br>
+            Most of the work in this project was in adapting React and React-Router to work in a static website as the technology is mostly used to for dynamic websites with backends. The benefits can be seen as you navigate through this website. Your browser will not have to fetch data from the server as the entire site has already been downloaded.
+            <br></br>
+            <br></br>
+            </div>
           </div>
         </div>
 
@@ -45,9 +47,9 @@ export default class Projects extends React.Component {
           </div>
         </div>
 
-        <div className={style.moboardBackground}>
+        <div className={style.coupleTonesBackground}>
           <div className={style.sectionContainer}>
-            <div className={style.sectionTitle}>CoupleTones</div>
+            <div className={style.sectionTitle}>CoupleTones (Group Course Project)</div>
 
             <div className={style.technologyFlex}>
               <div className={style.androidImage}></div>

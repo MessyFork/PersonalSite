@@ -11,6 +11,7 @@ export default class Resume extends React.Component {
         <div className={style.sectionContainer}>
           <div className={style.sectionText}>
             <PDF file={file}/>
+            <br></br>
             <a href={file}>Download PDF</a>
           </div>
         </div>
