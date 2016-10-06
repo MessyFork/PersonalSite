@@ -44,7 +44,7 @@ module.exports = {
         include: __dirname + '/src',
       },
       {
-        test: /\.(ico|otf)/,
+        test: /\.(ico|otf|pdf)/,
         loader: 'file-loader?name=[name].[ext]',
         include: __dirname + '/src/',
       }
