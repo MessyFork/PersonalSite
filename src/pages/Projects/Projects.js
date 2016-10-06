@@ -43,6 +43,9 @@ export default class Projects extends React.Component {
             MoBoard is the development name for an battery powered electric skateboard that utilizes open source parts for the entire powertrain.
             <br></br>
             <br></br>
+            The project utilizes the fantastic VESC open source motor controller by Benjamin Vedder to power a 2kW hobby brushless
+            motor. As the VESC controller was not commercially avaliable when we began the project the controller was handmade
+            and the components soldered by hand.
             </div>
           </div>
         </div>
